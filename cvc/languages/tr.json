@@ -1,0 +1,28 @@
+{
+    "id":5,
+    "name":"Turkish",
+    "lang":"tr",
+    "lang_ext":"tr-TR",
+    "separator":"sonra",
+    "instructions":"Cozmo'ya sesli komut verebilirsin. Komutlarının arasında 'SONRA' kelimesini söyleyerek ardarda komut verebilirsin.\nGeçerli tüm komutlar:",
+    "text_wait":"\nKONUŞMAYA HAZIR OLDUĞUNUZDA <SHIFT> TUŞUNA BASIN...",
+    "text_say":"\nSesli komutunuzu söyleyin (Zaman Aşımı: 5 saniye - Çıkış için ctrl+c)",
+    "error_one":"Üzgünüm verdiğin komutlardan bazilarini anlayamadım, geçerli tüm komutlar:",
+    "error_all":"Üzgünüm verdiğin komutlardan hiç birini anlayamadım, geçerli tüm komutlar:",
+    "commands":
+    [
+        {"action":"forward", "words":["ileri","öne"], "kullanım":"Cozmo ileriye doğru X saniye gider."},
+        {"action":"backward", "words":["geri","geriye", "arka"], "kullanım":"Cozmo geriye doğru X saniye gider."},
+        {"action":"right", "words":["sağ","sağa"], "kullanım":"Cozmo sağa doğru X derece döner, eğer dönmesi gereken dereceyi belirtmezseniz 90 derece döner."},
+        {"action":"left", "words":["sol","sola"], "kullanım":"Cozmo sola doğru X derece döner, eğer dönmesi gereken dereceyi belirtmezseniz 90 derece döner."},
+        {"action":"lift", "words":["kaldır","kol","kolunu"], "kullanım":"Kozmo kollarını X kadar havaya kaldırır (min:0, max:100)."},
+        {"action":"head", "words":["kafa","surat"], "kullanım":"Cozmo kafasını X kadar oynatır (min:0, max:100)."},
+        {"action":"look", "words":["bak","ara"], "kullanım":"Cozmo etrafta tanımlayacağı bir surat arar."},
+        {"action":"follow", "words":["takip"], "kullanım":"Cozmo suratınızı takip eder."},
+        {"action":"picture", "words":["resim","fotoğraf"], "kullanım":"Cozmo fotoğrafınızı çeker, daha sonra dosyayı programı çalıştırdıgınız klasöre kayıt eder."},
+        {"action":"say", "words":["söyle","konuş","anlat"], "kullanım":"Cozmo belirttiğiniz X i söyler."},
+        {"action":"blocks", "words":["blok","bloklar","küp","küpler","oyna","oyun"], "kullanım":"Cozmo küpleriyle oynar."},
+        {"action":"dance", "words":["dans","zıpla"], "kullanım":"Cozmo dans eder."},
+        {"action":"charger", "words":["şarj","istasyon","şarz","park"], "kullanım":"Cozmo şarj istasyonuna park etmeye çalışır, 3 kere dener."}
+    ]
+}
